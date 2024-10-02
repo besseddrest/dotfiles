@@ -43,6 +43,7 @@ return {
       "marksman",
       "somesass_ls",
       "jsonls",
+      "bashls",
     }
 
     -- lsps with default config

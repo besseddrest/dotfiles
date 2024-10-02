@@ -9,19 +9,11 @@ local custom = {
   lightgrey = { "grey", 10 },
 }
 
-M.mason = {
-  pkgs = {
-    "lua_ls",
-    "html",
-    "cssls",
-    "marksman",
-    "somesass_ls",
-    "eslint",
-    "jsonls",
-    "sqlls",
-    "ts_ls",
-  },
-}
+-- M.mason = {
+--   pkgs = {
+--
+--   },
+-- }
 
 M.ui = {
   theme = "tokyonight",
@@ -38,6 +30,12 @@ M.ui = {
     TelescopePromptBorder = { link = "TelescopeBorder" },
     TelescopeSelection = { fg = "green" },
     Visual = { bg = custom.grey },
+    SignColumn = { bg = "black" },
+    LineNr = { bg = "black" },
+    CursorLineNr = { bg = "black" },
+    -- DiagnosticInfo = { bg = "black", fg = "green" },
+    -- DiagnosticWarn = { bg = "black", fg = "yellow" },
+    -- DiagosticError = { bg = "black", fg = "red" },
   },
 
   hl_add = {
@@ -54,6 +52,10 @@ M.ui = {
     InclineNormal = { fg = "white" },
     TelescopeNormal = { link = "NONE", bg = "NONE" },
     dbui_help = { link = "NONE", fg = "orange" },
+    -- GitSignsAdd = { link = "DiagnosticInfo" },
+    -- GitSignsChange = { link = "DiagnosticWarn" },
+    -- GitSignsDelete = { link = "DiagnosticError" },
+    -- NoiceCmdlinePopupBorder = { link = "NONE" },
   },
 
   statusline = {
