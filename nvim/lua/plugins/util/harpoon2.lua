@@ -16,7 +16,7 @@ return {
     }
     -- REQUIRED
 
-    kmset("n", "<leader>hh", function()
+    kmset("n", "<leader>hi", function()
       harpoon:list():add()
       notify "Harpoon'd"
     end)

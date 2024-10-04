@@ -9,33 +9,18 @@ local custom = {
   lightgrey = { "grey", 10 },
 }
 
--- M.mason = {
---   pkgs = {
---
---   },
--- }
-
-M.ui = {
+M.base46 = {
   theme = "tokyonight",
   transparency = true,
   telescope = { style = "bordered" },
 
   hl_override = {
-    -- TbBufOn = { fg = "green" },
     Comment = { italic = true, fg = custom.lightgrey },
     ["@comment"] = { italic = true, fg = custom.lightgrey },
-    -- LineNr = { fg = custom.grey },
-    -- CursorLineNr = { fg = "green" },
     TelescopeBorder = { fg = "white" },
     TelescopePromptBorder = { link = "TelescopeBorder" },
     TelescopeSelection = { fg = "green" },
     Visual = { bg = custom.grey },
-    SignColumn = { bg = "black" },
-    LineNr = { bg = "black" },
-    CursorLineNr = { bg = "black" },
-    -- DiagnosticInfo = { bg = "black", fg = "green" },
-    -- DiagnosticWarn = { bg = "black", fg = "yellow" },
-    -- DiagosticError = { bg = "black", fg = "red" },
   },
 
   hl_add = {
@@ -44,23 +29,29 @@ M.ui = {
     DashboardMruTitle = { link = "DashboardHeader" },
     DashboardFooter = { link = "DashboardHeader" },
     DashboardShortCutIcon = { link = "DashboardHeader" },
-    NotifyBackground = { bg = "orange" },
+    -- NotifyBackground = { bg = "orange" },
     TelescopePromptCounter = { fg = "orange" },
-    MiniIndentscopeSymbol = { fg = { "grey", 25 } },
+    MiniIndentscopeSymbol = { fg = { "grey", 10 } },
     WhichKeyNormal = { bg = { "black", 0 } },
     WhichKeyBorder = { link = "NONE", bg = { "white", 0 } },
     InclineNormal = { fg = "white" },
     TelescopeNormal = { link = "NONE", bg = "NONE" },
     dbui_help = { link = "NONE", fg = "orange" },
-    -- GitSignsAdd = { link = "DiagnosticInfo" },
-    -- GitSignsChange = { link = "DiagnosticWarn" },
-    -- GitSignsDelete = { link = "DiagnosticError" },
-    -- NoiceCmdlinePopupBorder = { link = "NONE" },
   },
+}
 
+M.ui = {
+  cmp = {
+    lspkind_text = true,
+    style = "default", -- default/flat_light/flat_dark/atom/atom_colored
+    format_colors = {
+      tailwind = false,
+    },
+  },
   statusline = {
     separator_style = "arrow",
   },
+  border = "rounded",
 }
 
 M.term = {

@@ -10,6 +10,7 @@ return {
     { "hrsh7th/cmp-cmdline" },
     { "brenoprata10/nvim-highlight-colors" },
   },
+
   ---@type cmp.ConfigSchema
   opts = {
     mapping = {

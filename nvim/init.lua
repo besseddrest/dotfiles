@@ -20,9 +20,6 @@ require("lazy").setup({
     lazy = false,
     branch = "v2.5",
     import = "nvchad.plugins",
-    ui = {
-      border = "rounded",
-    },
     config = function()
       require "options"
     end,
