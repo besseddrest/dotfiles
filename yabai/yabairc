@@ -28,8 +28,9 @@ yabai -m mouse_drop_action swap
 # exclude
 yabai -m rule --add app="System Settings$" manage=off
 yabai -m rule --add app="Calculator$" manage=off
-yabai -m rule --add app="Karabiner-Elements$" manage=off
 yabai -m rule --add app="SF Symbols$" manage=off
+yabai -m rule --add app="Reminders$" manage=off
+yabai -m rule --add app="1Password 7$" manage=off
 
 # sketchybar
-yabai -m config external_bar all:44:0
+yabai -m config external_bar all:30:0

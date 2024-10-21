@@ -10,7 +10,7 @@ do
                               icon.padding_right=0 \
                               icon.padding_left=0 \
                               label.padding_right=0 \
-                              label-padding_left=0 \
+                              label.padding_left=0 \
                               script="$PLUGIN_DIR/space.sh"
 done
 

@@ -6,17 +6,21 @@
 
 source "$CONFIG_DIR/colors.sh" # Loads all defined colors
 
+
+# key_code=$((NAME + 17))
+
+
 if [ $SELECTED = true ]; then
   sketchybar --set $NAME background.drawing=on \
-                         background.color=$BG_ALT \
+                         background.color=$TN_BLACK \
                          background.border_width=1 \
-                         background.border_color=$BORDER_MAIN \
+                         background.border_color=$TN_GREEN \
                          background.height=28 \
-                         label.color=$TN_RED \
+                         label.color=$TN_GREEN \
                          label.padding_left=0 \
                          label.padding_right=0 \
-                         icon.font="SF Pro:Heavy:16.0" \
-                         icon.color=$TN_RED \
+                         icon.font="SF Pro:Semibold:15.0" \
+                         icon.color=$TN_GREEN \
                          icon.padding_left=15 \
                          icon.padding_right=15 \
                          align="center" \
@@ -31,12 +35,11 @@ else
                          label.color=$WHITE_25 \
                          label.padding_left=0 \
                          label.padding_right=0 \
-                         icon.font="SF Pro:Regular:16.0" \
+                         icon.font="SF Pro:Semibold:15.0" \
                          icon.color=$WHITE_25 \
                          icon.padding_left=15 \
                          icon.padding_right=15 \
                          align="center" \
-                         margin_right=10 \
                          padding_left=0 \
                          padding_right=10
 fi

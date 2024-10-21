@@ -27,6 +27,9 @@ map("n", "<C-k>", ":m .-2<CR>==") -- move line down(n)
 -- map("v", "<A-j>", ":m '>+1<CR>gv=gv") -- move line up(v)
 -- map("v", "<A-k>", ":m '<-2<CR>gv=gv") -- move line down(v)
 
+-- hide highlights
+map("n", "<leader>nh", "<Cmd>noh<CR>", { desc = "No search highlights" })
+
 -- (i)nlay hints (e)nable/(d)isable
 map("n", "<leader>i", function()
   vim.inlay_hint.enable(not vim.lsp.inlay_hint.is_enabled())

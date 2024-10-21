@@ -33,6 +33,9 @@ return {
       projects = {
         num_pickers = 3,
       },
+      find_files = {
+        hidden = true,
+      },
       -- live_grep = {
       --   vimgrep_arguments = function()
       --     table.insert(require("telescope.config").values.vimgrep_arguments, "--fixed-strings")

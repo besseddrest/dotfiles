@@ -10,6 +10,9 @@ export TN_ORANGE=0xffff9e64
 export TN_MAGENTA=0xffbb9af7
 export TN_GREY=0xff565f89
 
+export TERM_GREEN=0xff4af626
+export TERM_BLACK=0xcc000000
+
 export BG_MAIN=0xff1a1b26
 export BG_ALT=0xff24283b
 
