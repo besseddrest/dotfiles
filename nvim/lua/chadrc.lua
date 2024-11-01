@@ -10,7 +10,7 @@ local custom = {
 }
 
 M.base46 = {
-  theme = "tokyonight",
+  theme = "doomchad",
   transparency = true,
   telescope = { style = "bordered" },
 

@@ -11,7 +11,7 @@ config.cursor_blink_ease_out = "Constant"
 config.cursor_blink_rate = 600
 
 -- theme
-config.color_scheme = "tokyonight"
+-- config.color_scheme = "tokyonight"
 
 -- other themes I like
 -- local alt_themes = {
@@ -28,7 +28,7 @@ config.color_scheme = "tokyonight"
 
 config.colors = {
 	foreground = "#CBE0F0",
-	-- background = "#303446",
+	-- background = "#2E3440",
 	cursor_bg = "#47FF9C",
 	cursor_border = "#47FF9C",
 	cursor_fg = "#303446",
@@ -41,7 +41,7 @@ config.colors = {
 -- overrides wezterm theme bg color
 -- config.colors = {
 -- 	-- background = "#303446",
--- 	-- background = "#24273a",
+-- 	background = "#24273a",
 -- }
 
 -- window
@@ -51,8 +51,8 @@ config.display_pixel_geometry = "BGR"
 config.hide_tab_bar_if_only_one_tab = true
 config.initial_rows = 48
 config.initial_cols = 144
-config.window_background_opacity = 0.60
-config.macos_window_background_blur = 40
+config.window_background_opacity = 0.8
+-- config.macos_window_background_blur = 30
 config.window_decorations = "RESIZE"
 
 -- fonts
